@@ -1,11 +1,10 @@
 {
   "name": "typescript-lab",
   "version": "1.0.0",
-  "description": "Learning and practicing TypeScript concepts through hands on code examples.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tsc --watch index.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/Ashish2k04/typescript-lab/issues"
   },
-  "homepage": "https://github.com/Ashish2k04/typescript-lab#readme",
-  "devDependencies": {
-    "typescript": "^7.0.2"
-  }
+  "homepage": "https://github.com/Ashish2k04/typescript-lab#readme"
 }
