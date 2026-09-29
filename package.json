@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Ashish2k04/typescript-lab/issues"
   },
-  "homepage": "https://github.com/Ashish2k04/typescript-lab#readme"
+  "homepage": "https://github.com/Ashish2k04/typescript-lab#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
 }
