@@ -41,3 +41,16 @@ console.log(greetAgain("Devs!"));
 // }
 // err("Ashish!");
 //we use never when the function never stops, like it was run in loop.
+
+type USER = {name: string, age: number, isMale: boolean};
+
+const user: USER = {
+    name: "Prince",
+    age: 18,
+    isMale: true
+};
+
+function greetUser(data: USER){
+    console.log("Hello " + data.name + " Your age is " + data.age);
+}
+greetUser(user);
