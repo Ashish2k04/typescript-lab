@@ -1,3 +1,3 @@
-const name: string = 22;
+const name: string = "Ashish";
 
 console.log(name);
