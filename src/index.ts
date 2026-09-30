@@ -54,3 +54,4 @@ function greetUser(data: USER){
     console.log("Hello " + data.name + " Your age is " + data.age);
 }
 greetUser(user);
+//type is used to pre-define the value of any function or object
