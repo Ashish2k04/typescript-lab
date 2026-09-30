@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch src/index.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,6 @@
   },
   "homepage": "https://github.com/Ashish2k04/typescript-lab#readme",
   "devDependencies": {
-    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
 }
