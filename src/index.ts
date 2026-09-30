@@ -36,8 +36,8 @@ function greetAgain(name: string): string{
 console.log(greetAgain("Devs!"));
 // we use :string, :number, :boolean etc, if function is guarnteed returning something
 
-function err(name: string): never{
-    throw new Error("Something went wrong!")
-}
-console.log(err("Ashish!"));
+// function err(name: string): never{
+//     throw new Error("Something went wrong!")
+// }
+// err("Ashish!");
 //we use never when the function never stops, like it was run in loop.
