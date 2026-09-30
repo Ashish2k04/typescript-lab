@@ -1,5 +1,5 @@
 /**
- * string, number, boolean, array, tuple, void / never, type
+ * string, number, boolean, array, tuple, void / never, type, any / unknown
  */
 
 const str: string = "Hello Devs!"
@@ -50,8 +50,28 @@ const user: USER = {
     isMale: true
 };
 
-function greetUser(data: USER){
+function greetUser(data: USER): void{
     console.log("Hello " + data.name + " Your age is " + data.age);
 }
 greetUser(user);
 //type is used to pre-define the value of any function or object
+
+let anything: any;
+anything = "Hello Typescript"
+console.log(anything.toUpperCase());
+// using "any" you can store anything inside the variable 
+
+// let anything2: any;
+// anything2 = 55
+// console.log(anything2.toUpperCase());
+// but it can create bugs such as you can see on line number 66 we're using toUpperCase() method on number value
+
+let unknownType: unknown;
+unknownType = "Hello Typescript from unknown type";
+if(typeof unknownType === "string")
+    console.log(unknownType.toUpperCase());
+// "unknown" solves the problem of "any" because it will ask for a verification before running the code, like we used 
+// if statement on line number 71, if variable unknownType is only string then execute the console.log else nothing.
+
+
+
